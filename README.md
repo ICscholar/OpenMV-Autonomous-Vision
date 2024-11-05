@@ -9,5 +9,10 @@
     <img src="https://raw.githubusercontent.com/ICscholar/OpenMV-Autonomous-Vision/main/images%20for%20README/flowchart.png" alt="Flowchart" width="300"/>
 </div>
 
-
+## Small trick in traffic light detection task: 
+First step: use template matching to find the area of the whole traffic light in the environment. 
+Second Step: use color detection to detect the expected color in the target area from first step. 
+<div align="center">
+    <img src="https://github.com/ICscholar/OpenMV-Autonomous-Vision/blob/main/images%20for%20README/traffic_light_detect.png" alt="Flowchart" width="600"/>
+</div>
  
