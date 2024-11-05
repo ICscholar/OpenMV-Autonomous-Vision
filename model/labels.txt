@@ -1,0 +1,5 @@
+background
+barricade
+box
+dog
+line
