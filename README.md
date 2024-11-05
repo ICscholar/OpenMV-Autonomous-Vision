@@ -15,4 +15,13 @@ Second Step: use color detection to detect the expected color in the target area
 <div align="center">
     <img src="https://github.com/ICscholar/OpenMV-Autonomous-Vision/blob/main/images%20for%20README/traffic_light_detect.png" alt="Flowchart" width="600"/>
 </div>
- 
+
+### NOTE: In the main.py, the method for dog detection is color detection rather than using neural network model since there are too many templates pictures in the memory. The trained model for dog detection is also provided in the folder 'model/' that can be used directly. The actual detecting results are shown below: 
+With CNN: 
+<div align="center">
+    <img src="https://github.com/ICscholar/OpenMV-Autonomous-Vision/blob/main/image/dog_nn.png" alt="Flowchart" width="400"/>
+</div>  
+With Color Detection: 
+<div align="center">
+    <img src="https://github.com/ICscholar/OpenMV-Autonomous-Vision/blob/main/image/dog.png" alt="Flowchart" width="400"/>
+</div>  
