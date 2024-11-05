@@ -23,7 +23,7 @@ The system is designed to operate autonomously, adjusting its actions based on t
 - `main.py`: The primary script that coordinates the detection processes and integrates the detection algorithms.
 - `templates/`: Contains image templates used for object detection through template matching (e.g., arrow and obstacle shapes).
 - `models/`: Pre-trained neural network models, specifically MobileNetV2, stored here for more complex object detection tasks, such as pedestrian and dog detection.
-
+- `models/`: Display of project effectiveness.
 ## Troubleshooting
 
 If you encounter issues with the module or detection accuracy, consider the following:
